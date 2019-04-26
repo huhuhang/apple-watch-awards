@@ -587,8 +587,8 @@ body.is-preload .tiles article {
 /* Footer */
 
 #footer {
-  padding: 5em 0 6em 0;
-  background-color: #f6f6f6;
+  padding: 1em 0 0 0;
+  background-color: #ffffff;
 }
 
 #footer > .inner {
