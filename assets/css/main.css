@@ -120,7 +120,7 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
-  color: #4696e5 !important;
+  color: #2d3d73 !important;
 }
 
 p {
@@ -258,8 +258,8 @@ ul li {
 }
 
 .button:hover {
-  color: #dec161 !important;
-  box-shadow: inset 0 0 0 2px #dec161;
+  color: #2d3d73 !important;
+  box-shadow: inset 0 0 0 2px #2d3d73;
 }
 
 .button:active {
@@ -281,7 +281,7 @@ ul li {
 }
 
 .button.primary:active {
-  background-color: #dec161;
+  background-color: #2d3d73;
 }
 
 .button:disabled {
