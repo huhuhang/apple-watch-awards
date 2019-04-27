@@ -18,5 +18,5 @@
 
 ### 贡献者
 
-- [huhuhang](https://weibo.com/338363939)
-- 
+- [huhuhang](https://weibo.com/338363939) 贡献最初奖章。
+- [Hulk孙亮](https://weibo.com/2034468245) 贡献了多个限量版奖章。
