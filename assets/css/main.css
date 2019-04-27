@@ -258,8 +258,8 @@ ul li {
 }
 
 .button:hover {
-  color: #4696e5 !important;
-  box-shadow: inset 0 0 0 2px #4696e5;
+  color: #dec161 !important;
+  box-shadow: inset 0 0 0 2px #dec161;
 }
 
 .button:active {
@@ -281,7 +281,7 @@ ul li {
 }
 
 .button.primary:active {
-  background-color: #ee5f81;
+  background-color: #dec161;
 }
 
 .button:disabled {
