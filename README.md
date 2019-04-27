@@ -1,5 +1,7 @@
 ## Apple Watch Awards Gallery
 
+![](images/preview.png)
+
 收集 Apple Watch 可赢取的个人记录、殊荣和重要的里程碑等奖章。你可以参阅 [贡献方法](contribution.md) 补充更多的奖章。
 
 目录结构：
