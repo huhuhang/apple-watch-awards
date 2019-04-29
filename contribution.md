@@ -21,3 +21,4 @@
 - [huhuhang](https://weibo.com/338363939) 贡献最初奖章。
 - [Hulk孙亮](https://weibo.com/2034468245) 贡献了多个限量版奖章。
 - [Fawen](https://weibo.com/GFawen) 贡献了两个竞赛奖章。
+- amd2004 贡献了一周训练满 7 次及完美月份奖章。
