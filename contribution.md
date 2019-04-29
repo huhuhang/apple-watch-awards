@@ -22,5 +22,11 @@
 - [Hulk孙亮](https://weibo.com/2034468245) 贡献了多个限量版奖章。
 - [Fawen](https://weibo.com/GFawen) 贡献了两个竞赛奖章。
 - amd2004 贡献了一周训练满 7 次及完美月份奖章。
+- [王淳军](https://weibo.com/wangchunjun1987) 贡献了 21 枚奖章。
+- [于宝目木东耳](https://weibo.com/u/2681651444) 贡献了 2 枚奖章。
+- [马丁的药丸](https://weibo.com/u/6140762700) 贡献了多枚限量版奖章。
+- [ZaynTseng](https://weibo.com/778970112) 贡献了多枚奖章。
+- zg 贡献了多枚奖章。
+- [JPGallery](https://weibo.com/u/5493709167) 贡献了多枚奖章。
 
 - 贡献者较多，延迟更新。
