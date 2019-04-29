@@ -12,7 +12,7 @@
 
 最后，请将每个奖章包含的 3 张截图存放在一个文件夹中，使用 `zip` 压缩后发送至邮箱 huhuhang#谷歌邮箱.com。请备注自己的微博 ID 或者 GitHub ID，我们会将您添加至贡献者名单。
 
-当然，如果您熟悉 Github，也可以安装仓库格式直接提 Pull Requests。
+当然，如果您熟悉 Github，也可以按照仓库格式直接提 Pull Requests。
 
 ---
 
@@ -20,3 +20,4 @@
 
 - [huhuhang](https://weibo.com/338363939) 贡献最初奖章。
 - [Hulk孙亮](https://weibo.com/2034468245) 贡献了多个限量版奖章。
+- [Fawen](https://weibo.com/GFawen) 贡献了两个竞赛奖章。
