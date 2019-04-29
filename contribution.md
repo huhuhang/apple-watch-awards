@@ -14,6 +14,8 @@
 
 当然，如果您熟悉 Github，也可以按照仓库格式直接提 Pull Requests。
 
+- [目前已知还需要的奖章](https://shimo.im/docs/aszwLCZeU0wOddXz/)
+
 ---
 
 ### 贡献者
