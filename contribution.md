@@ -30,5 +30,6 @@
 - [ZaynTseng](https://weibo.com/778970112) 贡献了多枚奖章。
 - zg 贡献了多枚奖章。
 - [JPGallery](https://weibo.com/u/5493709167) 贡献了多枚奖章。
+- [想吃烤冷面烤冷面烤冷面烤冷面](https://weibo.com/u/3020383375) 贡献了多枚奖章。
 
 - 贡献者较多，延迟更新。
