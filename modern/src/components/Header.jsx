@@ -4,16 +4,16 @@ import Logo from '../images/logo.png';
 const Header = ({ src }) => {
   return (
     <header id="header">
-      <div class="inner">
-        <div class="fit">
-          <a href="index.html" class="logo">
-            <span class="symbol">
+      <div className="inner">
+        <div className="fit">
+          <a href="index.html" className="logo">
+            <span className="symbol">
               <img alt="website logo" src={Logo} />
             </span>
-            <span class="title">Apple Watch Awards Gallery</span>
+            <span className="title">Apple Watch Awards Gallery</span>
           </a>
         </div>
-        <div class="fit">
+        <div className="fit">
           <p>
             你可以使用
             <a href="https://support.apple.com/zh-cn/HT205406">Apple Watch</a>

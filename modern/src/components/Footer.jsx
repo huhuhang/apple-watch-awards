@@ -3,8 +3,8 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer id="footer">
-      <div class="inner">
-        <ul class="copyright">
+      <div className="inner">
+        <ul className="copyright">
           <li>&copy; Apple Watch Awards Gallery.</li>
           <li>
             <a href="https://apple.com"> Apple Inc. 拥有全部奖章的著作权</a>
@@ -12,7 +12,7 @@ const Footer = () => {
           <li>
             <a
               href="https://github.com/huhuhang/apple-watch-awards"
-              class="icon style1 fa-github"
+              className="icon style1 fa-github"
             >
               贡献奖章
             </a>
