@@ -363,73 +363,9 @@ ul li {
   z-index: 2;
 }
 
-.tiles article > a {
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -moz-flex-direction: column;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -moz-align-items: center;
-  -webkit-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  -moz-justify-content: center;
-  -webkit-justify-content: center;
-  -ms-justify-content: center;
-  justify-content: center;
-  -moz-transition: background-color 0.5s ease, -moz-transform 0.5s ease;
-  -webkit-transition: background-color 0.5s ease, -webkit-transform 0.5s ease;
-  -ms-transition: background-color 0.5s ease, -ms-transform 0.5s ease;
-  transition: background-color 0.5s ease, transform 0.5s ease;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 1em;
-  border-radius: 6px;
-  border-bottom: 0;
-  color: #ffffff;
-  text-align: center;
-  text-decoration: none;
-  z-index: 3;
-}
-
-.tiles article > a > :last-child {
-  margin: 0;
-}
-
-.tiles article > a:hover {
-  color: #202020 !important;
-  background-color: rgba(255, 255, 255, 0.9);
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
 .tiles article > a h2 {
   margin: 0;
   font-size: 0.9em;
-}
-
-.tiles article > a .content {
-  -moz-transition: max-height 0.5s ease, opacity 0.5s ease;
-  -webkit-transition: max-height 0.5s ease, opacity 0.5s ease;
-  -ms-transition: max-height 0.5s ease, opacity 0.5s ease;
-  transition: max-height 0.5s ease, opacity 0.5s ease;
-  width: 100%;
-  max-height: 0;
-  line-height: 1.5;
-  margin-top: 0.35em;
-  opacity: 0;
-}
-
-.tiles article > a .content > :last-child {
-  margin-bottom: 0;
 }
 
 body:not(.is-touch) .tiles article:hover > .image {
@@ -453,7 +389,7 @@ body:not(.is-touch) .tiles article:hover .content {
   opacity: 1;
 }
 
-* + .tiles {
+.tiles {
   margin-bottom: 2em;
 }
 
@@ -688,4 +624,8 @@ body.is-preload .tiles article {
   #wrapper > * > .inner {
     padding: 0 1.25em;
   }
+}
+
+.cant-touch {
+  pointer-events: none;
 }

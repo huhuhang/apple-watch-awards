@@ -12,17 +12,7 @@ const GalleryTitle = styled.header`
   }
 `;
 
-const Container = styled.section.attrs({
-  id: 'main',
-})`
-  pointer-events: ${props => (props.isScrolling ? 'none' : 'auto')};
-`;
-
-// let ticking = false;
-// const ric =
-//   typeof requestIdleCallback === 'function'
-//     ? requestIdleCallback
-//     : f => setTimeout(f, 50);
+let ticking = false;
 
 const AwardGallery = ({ title, awards }) => {
   const [intersectingList, setIntersection] = useState(
@@ -52,8 +42,29 @@ const AwardGallery = ({ title, awards }) => {
     );
   }, []);
 
+  useEffect(() => {
+    let timer;
+    const container = document.querySelector('#main');
+
+    const onScroll = () => {
+      clearTimeout(timer);
+      if (!ticking) {
+        ticking = true;
+        container.classList.add('cant-touch');
+        timer = setTimeout(() => {
+          container.classList.remove('cant-touch');
+        }, 200);
+        requestAnimationFrame(() => {
+          ticking = false;
+        });
+      }
+    };
+    window.addEventListener('scroll', onScroll);
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
   return (
-    <Container id="main">
+    <section id="main">
       <div className="inner">
         <GalleryTitle>
           <h2 className="button primary fit small">{title}</h2>
@@ -64,7 +75,7 @@ const AwardGallery = ({ title, awards }) => {
           ))}
         </section>
       </div>
-    </Container>
+    </section>
   );
 };
 
