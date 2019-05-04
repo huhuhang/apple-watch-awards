@@ -1,4 +1,7 @@
+// polyfill
+import 'intersection-observer';
 import React, { useEffect, useState } from 'react';
+// import { unstable_batchedUpdates } from 'react-dom';
 import styled from 'styled-components';
 import Award from './Award';
 
@@ -20,23 +23,21 @@ const AwardGallery = ({ title, awards }) => {
   );
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      entries => {
-        entries.forEach((entity, index) => {
-          if (entity.isIntersecting) {
-            setIntersection(list => {
-              if (list[index]) {
-                observer.unobserve(entity.target);
-                return list;
-              } else {
-                return list.map((status, i) => (i === index ? true : status));
-              }
-            });
-          }
-        });
-      },
-      { threshold: [0, 0.5, 1] },
-    );
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entity => {
+        if (entity.isIntersecting) {
+          const index = +entity.target.dataset.index;
+          setIntersection(list => {
+            if (list[index]) {
+              observer.unobserve(entity.target);
+              return list;
+            } else {
+              return list.map((status, i) => (i === index ? true : status));
+            }
+          });
+        }
+      });
+    });
     (document.querySelectorAll('.medal') || []).forEach(item =>
       observer.observe(item),
     );
@@ -71,7 +72,12 @@ const AwardGallery = ({ title, awards }) => {
         </GalleryTitle>
         <section className="tiles">
           {awards.map((award, index) => (
-            <Award key={index} startLoad={intersectingList[index]} {...award} />
+            <Award
+              index={index}
+              key={index}
+              isInViewport={intersectingList[index]}
+              {...award}
+            />
           ))}
         </section>
       </div>
