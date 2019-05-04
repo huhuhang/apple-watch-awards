@@ -1,6 +1,6 @@
 // polyfill
 import 'intersection-observer';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { unstable_batchedUpdates } from 'react-dom';
 import styled from 'styled-components';
 import Award from './Award';
@@ -46,9 +46,13 @@ const AwardGallery = ({ title, awards }) => {
     );
   }, []);
 
+  const titleRef = useRef();
   return (
     <Li>
-      <GalleryTitle>
+      <GalleryTitle
+        onClick={() => titleRef.current.scrollIntoView({ behavior: 'smooth' })}
+        ref={titleRef}
+      >
         <h2 className="button primary fit small">{title}</h2>
       </GalleryTitle>
       <section className="tiles">

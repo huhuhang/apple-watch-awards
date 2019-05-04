@@ -80,7 +80,6 @@ const Award = ({ name, description, src, isInViewport, index }) => {
           />
         </Suspense>
       </span>
-      {/* TODO: use other tag */}
       {isInViewport && (
         <AwardDescription>
           <div className="content">
