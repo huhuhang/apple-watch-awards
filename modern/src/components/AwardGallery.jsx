@@ -14,8 +14,9 @@ const GalleryTitle = styled.header`
     width: 100%:
   }
 `;
-
-let ticking = false;
+const Li = styled.li`
+  list-style: none;
+`;
 
 const AwardGallery = ({ title, awards }) => {
   const [intersectingList, setIntersection] = useState(
@@ -45,48 +46,22 @@ const AwardGallery = ({ title, awards }) => {
     );
   }, []);
 
-  useEffect(() => {
-    let timer;
-    let isScrolling = false;
-    const container = document.querySelector('#main');
-
-    const onScroll = () => {
-      clearTimeout(timer);
-      if (!ticking) {
-        !isScrolling && container.classList.add('cant-touch');
-        ticking = true;
-        isScrolling = true;
-        timer = setTimeout(() => {
-          container.classList.remove('cant-touch');
-          isScrolling = false;
-        }, 200);
-        requestAnimationFrame(() => {
-          ticking = false;
-        });
-      }
-    };
-    window.addEventListener('scroll', onScroll);
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
-
   return (
-    <section id="main">
-      <div className="inner">
-        <GalleryTitle>
-          <h2 className="button primary fit small">{title}</h2>
-        </GalleryTitle>
-        <section className="tiles">
-          {awards.map((award, index) => (
-            <Award
-              index={index}
-              key={index}
-              isInViewport={intersectingList[index]}
-              {...award}
-            />
-          ))}
-        </section>
-      </div>
-    </section>
+    <Li>
+      <GalleryTitle>
+        <h2 className="button primary fit small">{title}</h2>
+      </GalleryTitle>
+      <section className="tiles">
+        {awards.map((award, index) => (
+          <Award
+            index={index}
+            key={index}
+            isInViewport={intersectingList[index]}
+            {...award}
+          />
+        ))}
+      </section>
+    </Li>
   );
 };
 
