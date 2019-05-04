@@ -1,4 +1,4 @@
-import React, { Suspense, useMemo, useRef, memo } from 'react';
+import React, { Suspense, useMemo, useRef } from 'react';
 import styled from 'styled-components';
 
 const AwardImage = ({ src, alt, isInViewport }) => {
@@ -93,4 +93,4 @@ const Award = ({ name, description, src, isInViewport, index }) => {
   );
 };
 
-export default memo(Award);
+export default Award;
