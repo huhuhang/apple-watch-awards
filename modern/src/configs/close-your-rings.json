@@ -1,0 +1,85 @@
+{
+  "title": "合上进度圆环奖章",
+  "awards": [
+    {
+      "src": "metals/close-your-rings/new-move-record.jpg",
+      "name": "全新活动记录",
+      "description": ""
+    },
+    {
+      "src": "metals/close-your-rings/new-exercise-record.jpg",
+      "name": "全新锻炼记录",
+      "description": ""
+    },
+    {
+      "src": "metals/close-your-rings/move-goal-200.jpg",
+      "name": "200% 达成活动目标",
+      "description": ""
+    },
+    {
+      "src": "metals/close-your-rings/move-goal-300.jpg",
+      "name": "300% 达成活动目标",
+      "description": ""
+    },
+    {
+      "src": "metals/close-your-rings/move-goal-400.jpg",
+      "name": "400% 达成活动目标",
+      "description": ""
+    },
+    {
+      "src": "metals/close-your-rings/new-move-goal.jpg",
+      "name": "新活动目标",
+      "description": ""
+    },
+    {
+      "src": "metals/close-your-rings/longest-move-streak.jpg",
+      "name": "最坚持奖",
+      "description": ""
+    },
+    {
+      "src": "metals/close-your-rings/prefect-week-move.jpg",
+      "name": "完美一周（活动）",
+      "description": ""
+    },
+    {
+      "src": "metals/close-your-rings/prefect-week-exercise.jpg",
+      "name": "完美一周（锻炼）",
+      "description": ""
+    },
+    {
+      "src": "metals/close-your-rings/prefect-week-stand.jpg",
+      "name": "完美一周（站立）",
+      "description": ""
+    },
+    {
+      "src": "metals/close-your-rings/prefect-week-all-activity.jpg",
+      "name": "完美一周（全部健身记录）",
+      "description": ""
+    },
+    {
+      "src": "metals/close-your-rings/100-move-goals.jpg",
+      "name": "100 次活动目标",
+      "description": ""
+    },
+    {
+      "src": "metals/close-your-rings/365-move-goals.jpg",
+      "name": "365 次活动目标",
+      "description": ""
+    },
+    {
+      "src": "metals/close-your-rings/500-move-goals.jpg",
+      "name": "500 次活动目标",
+      "description": ""
+    },
+    {
+      "src": "metals/black.jpg",
+      "name": "1000 次活动目标",
+      "description": ""
+    },
+    {
+      "src": "metals/close-your-rings/prefect-month.jpg",
+      "name": "完美月份",
+      "description": "某月每天均达成每日活动目标而赢得此奖"
+    }
+  ]
+}

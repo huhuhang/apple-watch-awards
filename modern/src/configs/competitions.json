@@ -1,0 +1,50 @@
+{
+  "title": "竞赛奖章",
+  "awards": [
+    {
+      "src": "metals/competitions/competition-complete.jpg",
+      "name": "竞赛完成",
+      "description": "完成与朋友的 7 日竞赛时即可赢得此奖章。"
+    },
+    {
+      "src": "metals/competitions/victory-over-friends-style1.jpg",
+      "name": "战胜好友",
+      "description": "在与好友的 7 日竞赛中获胜可赢得此奖章。"
+    },
+    {
+      "src": "metals/competitions/victory-over-friends-style2.jpg",
+      "name": "战胜好友",
+      "description": "在与好友的 7 日竞赛中获胜可赢得此奖章。"
+    },
+    {
+      "src": "metals/competitions/victory-over-friends-style3.jpg",
+      "name": "战胜好友",
+      "description": "在与好友的 7 日竞赛中获胜可赢得此奖章。"
+    },
+    {
+      "src": "metals/competitions/victory-over-friends-style4.jpg",
+      "name": "战胜好友",
+      "description": "在与好友的 7 日竞赛中获胜可赢得此奖章。"
+    },
+    {
+      "src": "metals/competitions/victory-over-friends-style5.jpg",
+      "name": "战胜好友",
+      "description": "在与好友的 7 日竞赛中获胜可赢得此奖章。"
+    },
+    {
+      "src": "metals/competitions/victory-over-friends-style6.jpg",
+      "name": "战胜好友",
+      "description": "在与好友的 7 日竞赛中获胜可赢得此奖章。"
+    },
+    {
+      "src": "metals/competitions/victory-over-friends-style7.jpg",
+      "name": "战胜好友",
+      "description": "在与好友的 7 日竞赛中获胜可赢得此奖章。"
+    },
+    {
+      "src": "metals/competitions/victory-over-friends-style8.jpg",
+      "name": "战胜好友",
+      "description": "在与好友的 7 日竞赛中获胜可赢得此奖章。"
+    }
+  ]
+}

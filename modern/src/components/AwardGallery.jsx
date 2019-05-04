@@ -69,7 +69,6 @@ const AwardGallery = ({ title, awards }) => {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  console.count(23);
   return (
     <section id="main">
       <div className="inner">

@@ -2,13 +2,19 @@ import React from 'react';
 import AwardGallery from './components/AwardGallery';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import limited from './configs/limited-edition.json';
+import awards from './configs/awards';
 
 function App() {
   return (
     <div id="wrapper">
       <Header />
-      <AwardGallery title={limited.title} awards={limited.awards} />
+      {awards.map(awardList => (
+        <AwardGallery
+          key={awardList.title}
+          title={awardList.title}
+          awards={awardList.awards}
+        />
+      ))}
       <Footer />
     </div>
   );
