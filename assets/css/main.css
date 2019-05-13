@@ -70,7 +70,7 @@ html {
 }
 
 body {
-  background: #ffffff;
+  background: #000000;
 }
 
 body.is-preload *,
@@ -114,13 +114,13 @@ a {
   -ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   transition: border-bottom-color 0.2s ease, color 0.2s ease;
   text-decoration: none;
-  color: #585858;
+  color: #c9c9c9;
   border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 }
 
 a:hover {
   border-bottom-color: transparent;
-  color: #2d3d73 !important;
+  color: #ffffff !important;
 }
 
 p {
@@ -272,16 +272,8 @@ ul li {
 
 .button.primary {
   box-shadow: none;
-  background-color: #585858;
-  color: #ffffff !important;
-}
-
-.button.primary:hover {
-  background-color: #585858;
-}
-
-.button.primary:active {
-  background-color: #2d3d73;
+  background-color: #000000;
+  color: #c9c9c9 !important;
 }
 
 .button:disabled {
@@ -407,7 +399,7 @@ ul li {
 
 .tiles article > a:hover {
   color: #202020 !important;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.8);
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -527,6 +519,7 @@ body.is-preload .tiles article {
 
 #header {
   padding: 8em 0 0.1em 0;
+  color: #c9c9c9;
 }
 
 #header .logo {
@@ -588,7 +581,7 @@ body.is-preload .tiles article {
 
 #footer {
   padding: 1em 0 0 0;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 #footer > .inner {
@@ -616,7 +609,7 @@ body.is-preload .tiles article {
   margin-top: 5em;
   list-style: none;
   font-size: 0.8em;
-  color: rgba(88, 88, 88, 0.5);
+  color: #c9c9c9;
 }
 
 #footer > .inner .copyright a {
