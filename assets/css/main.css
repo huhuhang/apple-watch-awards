@@ -610,6 +610,7 @@ body.is-preload .tiles article {
   list-style: none;
   font-size: 0.8em;
   color: #c9c9c9;
+  text-align: right;
 }
 
 #footer > .inner .copyright a {
