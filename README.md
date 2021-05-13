@@ -1,3 +1,4 @@
+# 时间不充裕，已暂停更新
 ## APPLE WATCH LIMITED EDITIONS AWARDS
 
 ![](images/preview.png)
